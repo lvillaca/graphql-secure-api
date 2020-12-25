@@ -5,7 +5,6 @@ This API presents several features:
 * horizontal scalability - by increasing # of stateless microservices, with built-in application server (tomcat);
 * distributed cache, via infinispan - all microservices have access to this cache (enables access, with local proximity, to recent data);
 * loadbalancer in accessing the data source with hikari pools (2 pools);
-* compress responses above 1K (we may tune this parameter);
 * integration with the Keycloak for security (access to API is available after pulling an access token, by calling the IDP).
 
 
